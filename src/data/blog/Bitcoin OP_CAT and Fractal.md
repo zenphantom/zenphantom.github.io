@@ -1,8 +1,8 @@
 ---
 author: PH
 pubDatetime: 2025-03-20T15:22:00Z
-title: Adding new posts in AstroPaper theme
-slug: adding-new-posts-in-astropaper-theme
+title: Bitcoin OP_CAT and Fractal
+slug: Bitcoin OP_CAT and Fractal
 featured: true
 draft: false
 tags:
@@ -33,7 +33,7 @@ op code，中文称为操作码，是比特币原生脚本语言中执行特定�
 
 [Script Wiki](https://en.bitcoin.it/wiki/Script)
 
-![其中有很多被禁用的](../resource/Snipaste_2024-10-13_14-19-26.png)
+![其中有很多被禁用的](/assets/Snipaste_2024-10-13_14-19-26.png)
 其中有很多被禁用的
 
 OP_CAT 用于拼接数据，它将脚本堆栈顶部的两个元素连接为一个元素。例如，以下脚本：
@@ -184,9 +184,9 @@ case OP_CAT:
 
     https://mempool.space/zh/tx/0437cd7f8525ceed2324359c2d0ba26006d92d856a9c20fa0241106ee5a597c9#flow=&vout=0
 
-    ![图片](../resource/Snipaste_2024-10-13_14-41-29.png)
+    ![图片](/assets/Snipaste_2024-10-13_14-41-29.png)
 
-    ![解锁条件](../resource/Snipaste_2024-10-13_14-43-43.png)
+    ![解锁条件](/assets/Snipaste_2024-10-13_14-43-43.png)
 
     这里的脚本就是
     ```
@@ -197,7 +197,7 @@ case OP_CAT:
     ```
 
     解锁的操作
-    ![解锁的操作](../resource/Snipaste_2024-10-13_14-46-24.png)
+    ![解锁的操作](/assets/Snipaste_2024-10-13_14-46-24.png)
     这里的签名对象和解签所用的数据，就是btc的核心数据对象（大概是该交易哈希，output、版本号等）。
 
 3. P2PKH地址解锁样例
@@ -220,12 +220,12 @@ case OP_CAT:
 
     OP_CHECKSIG = 检测签名是否相等
 
-    ![图片](../resource/Snipaste_2024-10-13_14-48-56.png)
+    ![图片](/assets/Snipaste_2024-10-13_14-48-56.png)
 
 
     https://mempool.space/zh/tx/0b6461de422c46a221db99608fcbe0326e4f2325ebf2a47c9faf660ed61ee6a4
 
-    ![图片](../resource/Snipaste_2024-10-13_15-40-43.png)
+    ![图片](/assets/Snipaste_2024-10-13_15-40-43.png)
 
     ```
     483045022100b95ef71baebf456275693eca9d474ed13acbabe2ca94a4b42510f3a16f20b9ec022075a93a7064b60fe82887f2ba65f6e5280b277ffdbf15e83e1116ef2b51aeb229012102be8f7ea648d3522731589bca6aaade20fd6767910f77f1c7ae2c51d1048c2abc
