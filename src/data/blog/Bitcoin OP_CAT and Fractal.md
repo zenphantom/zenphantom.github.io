@@ -1,3 +1,17 @@
+---
+author: PH
+pubDatetime: 2025-03-20T15:22:00Z
+title: Adding new posts in AstroPaper theme
+slug: adding-new-posts-in-astropaper-theme
+featured: true
+draft: false
+tags:
+  - docs
+description:
+  Bitcoin OP_CAT and Fractal
+---
+
+
 # Bitcoin OP_CAT and Fractal
 
 [一天3个OP_CAT协议，比特币生态要「变天」了？](https://www.feixiaohao.com/news/12896241.html)
