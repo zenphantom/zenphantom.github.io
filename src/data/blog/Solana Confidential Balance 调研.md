@@ -44,7 +44,7 @@ description:
 
 # 操作流程
 
-![](/assets/Solana Confidential Balance 调研/image-7.png)
+![](/assets/Solana_Confidential_Balance_调研/image-7.png)
 
 1. 创建 confidential transfer extension 下的 mint account
 
@@ -66,7 +66,7 @@ description:
 
 # 余额模型
 
-![](/assets/Solana Confidential Balance 调研/diagram.png)
+![](/assets/Solana_Confidential_Balance_调研/diagram.png)
 
 ## 为什么设置pending余额和available余额
 
@@ -216,7 +216,7 @@ Error: client error: RPC response error -32002: Transaction simulation failed: E
 
 创建代币Mint ：https://explorer.solana.com/tx/mnX2YZFEd385PQM6Cd1EiZbm7x9jFydDjAobBvGoZQ5ULcygwDc83UmEkneQb5345wEPuRFhvzwaNAjPXPE4yjR?cluster=devnet
 
-![](/assets/Solana Confidential Balance 调研/image.png)
+![](/assets/Solana_Confidential_Balance_调研/image.png)
 
 创建token account依然可成功：https://explorer.solana.com/tx/3jDtwZmKx72inhDJJaYybMANkbbFYM7xwR5nVLEu14erEgHy99MTp48zEuaAb6q4AqigPhizxLZWiq6XR2kT9jcs?cluster=devnet
 
@@ -230,7 +230,7 @@ https://solscan.io/tx/4VtH3JynbaaQWDL6dh1mL59Z2PKDxBivaGpsp59Ljkgc2yeUnbg9R5Bi14
 
 初始余额零值是加密过的：
 
-![](/assets/Solana Confidential Balance 调研/image-1.png)
+![](/assets/Solana_Confidential_Balance_调研/image-1.png)
 
 
 
@@ -346,7 +346,7 @@ https://solscan.io/tx/3ViYZYbKSTuGAYm2WR5hjqwffa98F5YGGi1Tz9qzhtR2qJooVDsGAasw8w
 
 这一步是可以看到token变化值的：
 
-![](/assets/Solana Confidential Balance 调研/image-2.png)
+![](/assets/Solana_Confidential_Balance_调研/image-2.png)
 
 
 
@@ -356,7 +356,7 @@ https://explorer.solana.com/tx/38cjnw7o6CvuPeqEYMmQ1C7TUtkayPXoF2TrHD8uDkYJdkTvm
 
 到这一步，虽然不显示余额变化值，但仍能推断出available balance的数值：
 
-![](/assets/Solana Confidential Balance 调研/image-3.png)
+![](/assets/Solana_Confidential_Balance_调研/image-3.png)
 
 
 
@@ -382,7 +382,7 @@ https://explorer.solana.com/tx/3Wc3BsZdfSWGaTh2oNu6WqZ934UhzRZtuyurfjyjAK6grRpMe
 
 从发送者available余额转5000tokens到接收者pending余额，但这一步是看不到转账金额的：
 
-![](/assets/Solana Confidential Balance 调研/image-4.png)
+![](/assets/Solana_Confidential_Balance_调研/image-4.png)
 
 
 
@@ -436,7 +436,7 @@ https://explorer.solana.com/tx/sgz6UaDSgQFKu2Vqcmuqc5AzArS4Cukvvtx1qav5YDgkjXU8R
 
 这一步看不到金额数值：
 
-![](/assets/Solana Confidential Balance 调研/image-5.png)
+![](/assets/Solana_Confidential_Balance_调研/image-5.png)
 
 
 
@@ -448,7 +448,7 @@ https://explorer.solana.com/tx/hG9pB7TvHkx6o6PfbLGr92bKTcdemWezjE71jBGUP9woRRdpb
 
 这一步是能看到金额的：
 
-![](/assets/Solana Confidential Balance 调研/image-6.png)
+![](/assets/Solana_Confidential_Balance_调研/image-6.png)
 
 
 
